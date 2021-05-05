@@ -1,0 +1,25 @@
+Variables
+
+They are boxes where different types of data are stored to occupy them within our program.
+
+
+Strings
+
+They are character strings.
+
+
+Functions (arguments, return)
+
+Functions can have arguments that will be entered by the user
+or previously declared, to carry out an operation between them
+and returns the value found according to the function.
+
+
+If statements
+
+Compare the values and return a function if they are within the given parameters.
+
+
+Boolean values (true, false)
+
+Returns a value if it is true or false.
