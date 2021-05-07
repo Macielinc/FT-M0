@@ -105,8 +105,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero % 1 === 0) return true;{}
-  return false;
+  return (numero === Math.floor(numero))
+  /*if (numero % 1 === 0) return true;{}
+  return false;*/
 }
 
 function fizzBuzz(numero) {
@@ -176,11 +177,11 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  let arrayTablaDel6 = []
-  for (let i = 0; i < 11; i++) {
-        arrayTablaDel6.push(6 * i)
+  var arrayTabla6 = []
+  for (var i = 0; i < 11; i++) {
+        arrayTabla6.push(6 * i);
   }
-  return arrayTablaDel6  
+  return arrayTabla6; 
 }
 
 function tieneTresDigitos(numero){
@@ -201,8 +202,7 @@ function doWhile(numero) {
   do {
     i = i + 1;
     a = a + 5;
-  }
-  while(i < 8);
+  }while(i < 8);
   return a;
 }
 
