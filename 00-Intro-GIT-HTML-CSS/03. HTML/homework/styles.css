@@ -9,7 +9,8 @@ img{
     width: 500px;
     background-color:darkgreen;
     padding: 50px;
-    border: 2pxs solid darkkhaki;
+    border: 2px solid;
+    border-color: chartreuse;
 }
 #spanId{
     font-size: 18px;

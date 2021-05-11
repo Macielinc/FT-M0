@@ -179,7 +179,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   var arrayTabla6 = []
   for (var i = 0; i < 11; i++) {
-        arrayTabla6.push(6 * i);
+        arrayTabla6.push = (6 * i);
   }
   return arrayTabla6; 
 }

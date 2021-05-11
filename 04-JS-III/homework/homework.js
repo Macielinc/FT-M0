@@ -3,6 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
+  //let arrayNuevo = array;
   return array[0];
 }
 
@@ -11,6 +12,7 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
   return array[array.length - 1];
+ // return array.pop();
 }
 
 
@@ -39,7 +41,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array[array.length] = elemento;
+  //array[array.length] = elemento;
+  //return array;
+  array.push(elemento);
   return array;
 }
 
@@ -60,7 +64,14 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  return palabras.join(' ');
+  //return palabras.join(' ');
+  var frase = '';
+  for (let i = 0; i < array.length; i++) {
+    if (i === palabras.length -1){
+      frase = frase + palabras[i];
+    }else frase = frase + palabras [i] + " ";    
+  }
+  return frase;
 }
 
 
@@ -160,6 +171,12 @@ function empiezaConNueve(n) {
     return true
   }
   return false
+  /*var i= 10;
+  while1(i>9);{
+    i = Math.trunc(n/10);
+  }
+  if(i=== 9 || n === 9) return true;
+  else return false;*/
 }
 
 
