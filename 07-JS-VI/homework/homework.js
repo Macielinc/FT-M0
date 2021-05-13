@@ -61,7 +61,7 @@ function map(array, cb) {
 
   /*let nuevoArray = []
   nuevoArray = array.map(function(item){
-    returncb(item)
+    return cb(item)
   })
   return nuevoArray;*/
 }
